@@ -22,7 +22,7 @@ def parse_args():
 
     parser.add_argument('--prior_type', type=str, default='mixGaussian',
                         choices=['mixGaussian', 'swiss_roll', 'normal'],
-                        help='The type of prior')
+                        help='The type of prior', required = True)
 
     parser.add_argument('--n_hidden', type=int, default=1000, help='Number of hidden units in MLP')
 
