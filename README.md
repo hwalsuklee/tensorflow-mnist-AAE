@@ -13,13 +13,12 @@ The paper suggest various ways of using AAE.
 
 Only results on 'Incorporatiing Label Information in the Adversarial Regularization' are given here.
 
-## Results
+## Target Distributions
 
-Leveraging label information to better regularize the hidden code in Figure 4 in the paper.
-
-### Target Distributions
-Three types of prior distrubtion are considered : a mixture of 10 2-D Gaussians, a swiss roll distribution, and a normal distribution.  
-Results on a normal distrubtion is not suggested in the paper.
+Three types of prior distrubtion are considered.
+* a mixture of 10 2-D Gaussians
+* a swiss roll distribution
+* a normal distribution : not suggested in the paper.
 
 The following graphs can be obtained with command:
 ```
@@ -37,6 +36,10 @@ python test_prior_type.py --prior_type <type>
 <td><img src = 'results/target_prior_distribution_normal.png' height = '250px'>
 </tr>
 </table>
+
+## Results
+
+Leveraging label information to better regularize the hidden code in Figure 4 in the paper.
 
 ### Prior distribution type : a mixture of 10 2-D Gaussians
 The following results can be reproduced with command:  
