@@ -53,6 +53,7 @@ python run_main.py --prior_type mixGaussian
 <td><img src = 'results/mixGaussian/PMLR_map_epoch_19.jpg' height = '400px'>
 </tr>
 </table>
+
 ### Prior distribution type : a swiss roll distribution
 The following results can be reproduced with command:  
 ```
