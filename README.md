@@ -48,8 +48,8 @@ python run_main.py --prior_type mixGaussian
 ```
 <table align='center'>
 <tr align='center'>
-<td> Learned MNIST manifold</td>
-<td> Distribution of labeled data</td>
+<td> Learned MNIST manifold (20 Epochs) </td>
+<td> Distribution of labeled data (20 Epochs) </td>
 </tr>
 <tr>
 <td><img src = 'samples/mixGaussian/PMLR_epoch_19.jpg' height = '400px'>
@@ -64,8 +64,8 @@ python run_main.py --prior_type swiss_roll
 ```
 <table align='center'>
 <tr align='center'>
-<td> Learned MNIST manifold</td>
-<td> Distribution of labeled data</td>
+<td> Learned MNIST manifold (20 Epochs) </td>
+<td> Distribution of labeled data (20 Epochs) </td>
 </tr>
 <tr>
 <td><img src = 'samples/swiss_roll/PMLR_epoch_19.jpg' height = '400px'>
@@ -80,8 +80,8 @@ python run_main.py --prior_type normal
 ```
 <table align='center'>
 <tr align='center'>
-<td> Learned MNIST manifold</td>
-<td> Distribution of labeled data</td>
+<td> Learned MNIST manifold (20 Epochs) </td>
+<td> Distribution of labeled data (20 Epochs) </td>
 </tr>
 <tr>
 <td><img src = 'samples/normal/PMLR_epoch_19.jpg' height = '400px'>
