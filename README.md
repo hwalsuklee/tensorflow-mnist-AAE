@@ -31,9 +31,9 @@ python test_prior_type.py --prior_type <type>
 <td> normal </td>
 </tr>
 <tr>
-<td><img src = 'results/target_prior_distribution_mixture_of_gaussian.png' height = '250px'>
-<td><img src = 'results/target_prior_distribution_swiss_roll.png' height = '250px'>
-<td><img src = 'results/target_prior_distribution_normal.png' height = '250px'>
+<td><img src = 'samples/target_prior_distribution_mixture_of_gaussian.png' height = '250px'>
+<td><img src = 'samples/target_prior_distribution_swiss_roll.png' height = '250px'>
+<td><img src = 'samples/target_prior_distribution_normal.png' height = '250px'>
 </tr>
 </table>
 
@@ -52,8 +52,8 @@ python run_main.py --prior_type mixGaussian
 <td> Distribution of labeled data</td>
 </tr>
 <tr>
-<td><img src = 'results/mixGaussian/PMLR_epoch_19.jpg' height = '400px'>
-<td><img src = 'results/mixGaussian/PMLR_map_epoch_19.jpg' height = '400px'>
+<td><img src = 'samples/mixGaussian/PMLR_epoch_19.jpg' height = '400px'>
+<td><img src = 'samples/mixGaussian/PMLR_map_epoch_19.jpg' height = '400px'>
 </tr>
 </table>
 
@@ -68,8 +68,8 @@ python run_main.py --prior_type swiss_roll
 <td> Distribution of labeled data</td>
 </tr>
 <tr>
-<td><img src = 'results/swiss_roll/PMLR_epoch_19.jpg' height = '400px'>
-<td><img src = 'results/swiss_roll/PMLR_map_epoch_19.jpg' height = '400px'>
+<td><img src = 'samples/swiss_roll/PMLR_epoch_19.jpg' height = '400px'>
+<td><img src = 'samples/swiss_roll/PMLR_map_epoch_19.jpg' height = '400px'>
 </tr>
 </table>
 
@@ -84,8 +84,8 @@ python run_main.py --prior_type normal
 <td> Distribution of labeled data</td>
 </tr>
 <tr>
-<td><img src = 'results/normal/PMLR_epoch_19.jpg' height = '400px'>
-<td><img src = 'results/normal/PMLR_map_epoch_19.jpg' height = '400px'>
+<td><img src = 'samples/normal/PMLR_epoch_19.jpg' height = '400px'>
+<td><img src = 'samples/normal/PMLR_map_epoch_19.jpg' height = '400px'>
 </tr>
 </table>
 
