@@ -129,10 +129,6 @@ def check_args(args):
         return None
 
     if args.PMLR == True:
-        try:
-            assert args.dim_z == 2
-        except:
-            print('PMLR : dim_z must be two')
 
         # --PMLR_n_img_x, --PMLR_n_img_y
         try:
@@ -220,8 +216,8 @@ def main(args):
     # optimization
     t_vars = tf.trainable_variables()
     d_vars = [var for var in t_vars if "discriminator" in var.name]
-    g_vars = [var for var in t_vars if "gaussian_MLP_encoder" in var.name]
-    ae_vars = [var for var in t_vars if "gaussian_MLP_encoder" or "bernoulli_MLP_decoder" in var.name]
+    g_vars = [var for var in t_vars if "MLP_encoder" in var.name]
+    ae_vars = [var for var in t_vars if "MLP_encoder" or "MLP_decoder" in var.name]
 
     train_op_ae = tf.train.AdamOptimizer(learn_rate).minimize(neg_marginal_likelihood, var_list=ae_vars)
     train_op_d = tf.train.AdamOptimizer(learn_rate/5).minimize(D_loss, var_list=d_vars)
